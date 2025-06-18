@@ -1,6 +1,6 @@
 ---
 title: "FusionCorp TryHackMe" 
-date: 2025-06-19 23:50:00 0000+
+date: 2025-06-18 23:50:00 0000+
 tags: [WriteUp, FusionCorp, THM, Active Directory, Lateral Movement, Privilege Escalation, Windows]
 categories: [WriteUps, TryHackMe]
 ---
