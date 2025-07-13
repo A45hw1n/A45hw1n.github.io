@@ -1,7 +1,7 @@
 ---
 title: "Tombwatcher HackTheBox" 
 date: 2025-06-25 23:50:00 0000+
-tags: [WriteUp, Tombwatcher, HTB, Enumeration, Active Directory, ADCS, Hash Cracking, Kerberoasting, Lateral Movement, Bloodhound, ESC15, gMSA Abuse, Privilege Escalation, Windows]
+tags: [WriteUp, Tombwatcher, HTB, Enumeration, Active Directory, DeletedADObjects, ADCS, Hash Cracking, Kerberoasting, Lateral Movement, Bloodhound, ESC15, gMSA Abuse, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
 ---
 
@@ -14,7 +14,9 @@ Tombwatcher is a medium level Hackthebox machine which is based on the assumed b
 ### Nmap reconnaissance
 
 We are gonna start off with the rustmap( rustscan and nmap) to find the open ports and services. We observed that its an Active directory box.
-
+```bash
+rustmap.py -ip 10.10.11.72
+```
 [https://github.com/A45hw1n/Rustmap](https://github.com/A45hw1n/Rustmap)
 
 ![image.png](../assets/images/Tombwatcher_HTB/image.png)
