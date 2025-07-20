@@ -6,9 +6,7 @@ categories: [WriteUps, HackTheBox]
 ---
 # Authority HTB Writeup
 
-Authority is the medium level HackTheBox machine which focusses on the
-
-ansible-vault password cracking, and then decrypting those passwords, also using responder to connect back to us by creating a rogue ldap server to get the creds of a ldap user in the domain, upon further enumeration we observed that the domain computers can do ESC1 on the CA to enroll certificates, but the smartcard logon was disable so we used pass the cert to get a ldap shell and then add our ldap user to the domain admins and administrators group to get the administrator flag.
+Authority is the medium level HackTheBox machine which focusses on the ansible-vault password cracking, and then decrypting those passwords, also using responder to connect back to us by creating a rogue ldap server to get the creds of a ldap user in the domain, upon further enumeration we observed that the domain computers can do ESC1 on the CA to enroll certificates, but the smartcard logon was disable so we used pass the cert to get a ldap shell and then add our ldap user to the domain admins and administrators group to get the administrator flag.
 
 ![image.png](../assets/images/Authority_HTB/image.png)
 
