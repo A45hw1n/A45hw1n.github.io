@@ -57,7 +57,7 @@ Saved this to the usernames.txt file.
 Used rusthound-ce as the collector to collect data from the domain.
 
 ```bash
-**rusthound-ce -d certified.htb -u 'judith.mader' -p 'judith09' -f dc01.certified.htb -z**
+rusthound-ce -d certified.htb -u 'judith.mader' -p 'judith09' -f dc01.certified.htb -z
 ```
 
 ![image.png](../assets/images/Certified_HTB/image%206.png)
