@@ -3,6 +3,7 @@ title: "Vintage HackTheBox"
 date: 2025-08-4 23:50:00 0000+
 tags: [WriteUp, Vintage, HTB, Enumeration, Active Directory, RID Bruteforcing, ResetPassword, password reuse, MSSQL, DisabledUser, RealmFix, Hash Cracking, Kerberoasting, Lateral Movement, Bloodhound, DPAPI, VaultCred, Privilege Escalation, PreWindows2000, Windows]
 categories: [WriteUps, HackTheBox]
+categories: [Hard]
 ---
 # Vintage HTB Writeup
 
