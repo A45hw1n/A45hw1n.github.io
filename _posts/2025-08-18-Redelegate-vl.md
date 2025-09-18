@@ -3,6 +3,8 @@ title: "Redelegate VulnLab"
 date: 2025-08-18 23:50:00 0000+
 tags: [WriteUp, Redelegate, VL, Enumeration, Active Directory, SMB, ConstrainedDelegation, Rusthound-CE, Delegation, RID Bruteforcing, TrustedToAuthForDelegate, Lateral Movement, Bloodhound, Privilege Escalation, MSSQL, PasswordSpraying, AllowedToDelegate, Windows]
 categories: [WriteUps,VulnLab]
+image:
+  path: assets/images/Redelegate_VL/preview_redelegate.png
 ---
 # Redelegate VulnLab Writeup
 

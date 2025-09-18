@@ -3,6 +3,8 @@ title: "Access HackTheBox"
 date: 2025-08-30 06:00:00 0000+
 tags: [WriteUp, Access, HTB, Enumeration, FTP, DPAPI, pst-utils, Outlook, Hash Cracking,telnet, mdb-tools, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Access_HTB/preview_access.png
 ---
 # Access HTB Writeup
 

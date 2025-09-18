@@ -3,6 +3,8 @@ title: "Ollie TryHackMe"
 date: 2025-09-2 00:50:00 0000+
 tags: [WriteUp, Ollie, THM,  Enumeration, CVE, phpIPAM, OldSoftware, Unpatched, password reuse ,Privilege Escalation, Linux]
 categories: [WriteUps, TryHackMe]
+image:
+  path: assets/images/Ollie_THM/preview_ollie.jpeg
 ---
 # Ollie THM Writeup
 

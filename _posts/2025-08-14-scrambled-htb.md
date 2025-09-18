@@ -3,6 +3,8 @@ title: "Scrambled HackTheBox"
 date: 2025-08-14 23:50:00 0000+
 tags: [WriteUp, Scrambled, HTB, Enumeration, Active Directory, DNSpy, GodPotato, .NET, Reverse Engineering, Serialization, De-Serialization, Ysoserial, Msfvenom, Wireshark, password reuse, SilverTicket, RealmFix, Hash Cracking, Kerberoasting, Rusthound, Bloodhound, Rusthound-CE, MSSQL, SQL-Admin, impacket-Ticketer, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Scrambled_HTB/preview_scrambled.png
 ---
 # Scrambled HTB Writeup
 

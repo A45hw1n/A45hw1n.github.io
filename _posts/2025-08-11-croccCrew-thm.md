@@ -3,6 +3,8 @@ title: "CroccCrew TryHackMe"
 date: 2025-08-11 00:50:00 0000+
 tags: [WriteUp, CroccCrew, THM,  Enumeration, Active Directory, SMB, Hash Cracking, RID Bruteforcing,Bloodhound, Rusthound-CE, Pywerview, Password Spraying, PTH, AllowedToDelegate, Lateral Movement, Privilege Escalation, Windows]
 categories: [WriteUps, TryHackMe]
+image:
+  path: assets/images/CroccCrew_THM/preview_crocccrew.png
 ---
 # CroccCrew THM Writeup
 
