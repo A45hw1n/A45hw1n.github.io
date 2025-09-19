@@ -3,6 +3,8 @@ title: "Grandpa HackTheBox"
 date: 2025-07-25 06:00:00 0000+
 tags: [WriteUp, Grandpa, HTB, Enumeration, BufferOverflow, CVE, GodPotato, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Grandpa_HTB/preview_grandpa.png
 ---
 # Grandpa HTB Writeup
 

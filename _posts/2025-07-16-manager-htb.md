@@ -3,6 +3,8 @@ title: "Manager HackTheBox"
 date: 2025-07-16 23:50:00 0000+
 tags: [WriteUp, Manager, HTB, Enumeration, Active Directory, ADCS, MSSQL, Password Spraying, Bloodhound, Rusthound-CE, ESC1, ESC7, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Manager_HTB/preview_manager.png
 ---
 # Manager HTB Writeup
 

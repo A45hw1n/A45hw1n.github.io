@@ -3,6 +3,8 @@ title: "Cicada HackTheBox"
 date: 2025-07-4 00:26:00 0000+
 tags: [WriteUp, Cicada, HTB, Enumeration, BackupOperators, Active Directory, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Cicada_HTB/preview_cicada.png
 ---
 # Cicada HTB Writeup
 

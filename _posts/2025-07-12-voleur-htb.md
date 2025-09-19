@@ -3,6 +3,8 @@ title: "Voleur HackTheBox"
 date: 2025-07-12 23:50:00 0000+
 tags: [WriteUp, Voleur, HTB, Enumeration, Active Directory, SSH, WSL, DeletedADObjects, RealmFix, Hash Cracking, Kerberoasting, Lateral Movement, Bloodhound, RunasCs, DPAPI, VaultCred, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Voleur_HTB/preview_voleur.png
 ---
 # Voleur HTB Writeup
 

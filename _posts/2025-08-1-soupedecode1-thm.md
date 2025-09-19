@@ -3,6 +3,8 @@ title: "Soupedecode01 TryHackMe"
 date: 2025-08-1 23:50:00 0000+
 tags: [WriteUp, Soupedecode01, THM, SMB, Enumeration, Bloodhound, Hash Cracking, Kerberoasting, Lateral Movement, Password Spraying, PTH, Windows]
 categories: [WriteUps, TryHackMe]
+image:
+  path: assets/images/Soupedecode_THM/preview_soupedecode01.png
 ---
 # Soupedecode01 THM Writeup
 

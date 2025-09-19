@@ -3,6 +3,8 @@ title: "EscapeTwo HackTheBox"
 date: 2025-07-24 06:00:00 0000+
 tags: [WriteUp, EscapeTwo, HTB, Enumeration, Active Directory, ADCS, MSSQL, password reuse, Bloodhound, Rusthound-CE, Password Spraying, ESC4, ESC1, PTH, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/EscapeTwo_HTB/preview_escapetwo.png
 ---
 # EscapeTwo HTB Writeup
 

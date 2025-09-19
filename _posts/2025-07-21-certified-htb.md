@@ -3,6 +3,8 @@ title: "Certified HackTheBox"
 date: 2025-07-21 23:50:00 0000+
 tags: [WriteUp, Certified, HTB, Enumeration, Active Directory, Rusthound-CE, ADCS, RID Bruteforcing, Lateral Movement, Bloodhound, ESC9, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Certified_HTB/preview_certified.png
 ---
 # Certified HTB Writeup
 

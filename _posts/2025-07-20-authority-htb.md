@@ -3,6 +3,8 @@ title: "Authority HackTheBox"
 date: 2025-07-19 23:50:00 0000+
 tags: [WriteUp, Authority, HTB, Enumeration, Active Directory, ADCS, Responder, SmartCardLogin, Bloodhound, Rusthound-CE, ESC1, PassTheCert, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Authority_HTB/preview_authority.png
 ---
 # Authority HTB Writeup
 
