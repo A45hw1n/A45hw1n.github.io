@@ -1,7 +1,7 @@
 ---
 title: "Delegate VulnLab" 
 date: 2025-09-16 23:50:00 0000+
-tags: [WriteUp, Delegate, VL, Enumeration, Active Directory, SMB, UnconstrainedDelegation, Rusthound-CE, Delegation, RID Bruteforcing, TrustedForDelegate, Lateral Movement, RID Bruteforcing ,Bloodhound, Privilege Escalation, PasswordSpraying, AllowedToDelegate, ConstrainedDelegation, SeEnableDelegationPrivilege, krbrelayx, dnstool, addspn, DNS Abuse, NetExec, CoercePlus, Coercing, PrinterBug, PetitPotam ,Windows]
+tags: [WriteUp, Delegate, VL, Enumeration, Active Directory, SMB, UnconstrainedDelegation, Rusthound-CE, Delegation, TrustedForDelegate, Lateral Movement, RID Bruteforcing ,Bloodhound, Privilege Escalation, PasswordSpraying, AllowedToDelegate, ConstrainedDelegation, SeEnableDelegationPrivilege, krbrelayx, dnstool, addspn, DNS Abuse, NetExec, CoercePlus, Coercing, PrinterBug, PetitPotam ,Windows]
 categories: [WriteUps,VulnLab]
 image:
   path: assets/images/Delegate_VL/preview_delegate.png
