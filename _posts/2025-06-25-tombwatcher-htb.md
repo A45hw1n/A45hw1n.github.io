@@ -3,6 +3,8 @@ title: "Tombwatcher HackTheBox"
 date: 2025-06-25 23:50:00 0000+
 tags: [WriteUp, Tombwatcher, HTB, Enumeration, Active Directory, DeletedADObjects, ADCS, Hash Cracking, Kerberoasting, Lateral Movement, Bloodhound, ESC15, gMSA Abuse, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Tombwatcher_HTB/preview_tombwatcher.png
 ---
 
 # Tombwatcher HTB Writeup

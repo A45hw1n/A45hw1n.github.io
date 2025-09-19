@@ -3,6 +3,8 @@ title: "Bounty Hunter HackTheBox"
 date: 2023-07-05 17:20:00 0000+
 tags: [WriteUp, BountyHunter, HTB, XXE, Vulnerbility, Linux, privesc]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/BountyHunterHTB/preview_bountyhunter.png
 ---
 
 # Bounty Hunter - Hack the Box Writeup

@@ -3,6 +3,8 @@ title: "Bastard HackTheBox"
 date: 2025-07-03 06:00:00 0000+
 tags: [WriteUp, Bastard, HTB, Enumeration, CMS, CVE, Drupal, Kernal Exploit, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Bastard_HTB/preview_bastard.png
 ---
 # Bastard HTB Writeup
 

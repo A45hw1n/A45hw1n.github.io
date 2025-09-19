@@ -3,6 +3,8 @@ title: "Escape HackTheBox"
 date: 2025-07-02 06:00:00 0000+
 tags: [WriteUp, Escape, HTB, Enumeration, Active Directory, ADCS, MSSQL, Responder, Hash Cracking, Logs, mistyped passwords, ESC1, PTH, Privilege Escalation, Windows]
 categories: [WriteUps, HackTheBox]
+image:
+  path: assets/images/Escape_HTB/preview_escape.png
 ---
 # Escape HTB Writeup
 
