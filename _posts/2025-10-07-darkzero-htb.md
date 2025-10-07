@@ -8,6 +8,8 @@ image:
 ---
 # MACHINE IS ACTIVE ON HTB
 
+LMAO CLICKBAITED 🤡🤡🤡 !
+Solve this on your own buddy!
 This Box is currently live on HackTheBox !
 
 ![image.png](../assets/images/DarkZero_HTB/image%2050.png)
