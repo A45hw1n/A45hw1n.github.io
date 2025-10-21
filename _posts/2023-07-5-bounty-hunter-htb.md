@@ -31,13 +31,13 @@ Heading over to this → [http://10.10.11.100/](http://10.10.11.100/) opens up t
 
 After enumerating the webpage further, I found only this [http://10.10.11.100/portal.php](http://10.10.11.100/portal.php) webpage, which says “Portal under development. Go here to test the bounty tracker.”
 
-![image.png](../assets/images/BountyHunter-HTB/Untitled%202.png)
+![image.png](../assets/images/BountyHunter-HTBUntitled%202.png)
 
 Which is further redirecting us to this [http://10.10.11.100/log_submit.php](http://10.10.11.100/log_submit.php), and opens up this page.
 
 After filling the given fields, and submitting it. It returns this output.
 
-![image.png](../assets/images/BountyHunter-HTB/Untitled%203.png)
+![image.png](../assets/images/BountyHunter-HTBUntitled%203.png)
 
 I captured the following request in burp. Which then reveals a secret page in the webserver → [http://10.10.11.100/tracker_diRbPr00f314.php](http://10.10.11.100/tracker_diRbPr00f314.php), and also the data parameter in the request is base 64 encoded, decoding it base64 reveals that it is an XML request is being POSTED to the server.
 
@@ -51,7 +51,7 @@ But before that let’s just enumerate the webpage further by fuzzing it. I have
 feroxbuster -u http://10.10.11.100/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -x php -C 40
 ```
 
-![image.png](../assets/images/BountyHunter-HTB/Untitled%205.png)
+![image.png](../assets/images/BountyHunter-HTBUntitled%205.png)
 
 The feroxbuster’s output reveals an interesting php page in the webserver which is db.php, visiting it opens up a blank page.
 
