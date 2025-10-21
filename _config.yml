@@ -8,41 +8,41 @@ theme: jekyll-theme-chirpy
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › https://zones.arilyn.cc
-timezone:
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Aashwin Sharma # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: CRTP | Security Researcher | Hacker | Red Teamer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Red Teaming, CRTP, Cybersecurity, Hackthebox, Tryhackme, blue teaming, penetration testing, programming, security , information security, Active Directory, tombwatcher, heist, ra2, fusioncorp, bountyhunter
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://a45hw1n.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: A45hw1n # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: 445hw1n # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Aashwin Sharma
+  email: aashwin7.work@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://www.linkedin.com/in/aashwin-sharma-a20158231/
+    - https://twitter.com/445hw1n # change to your Twitter homepage
+    - https://github.com/A45hw1n # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -59,9 +59,9 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-38QRZS3MVY # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: aashwin # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -75,7 +75,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -98,11 +98,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://pbs.twimg.com/profile_images/1933553512681447424/QgH-jX9c_400x400.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: "" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
