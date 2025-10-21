@@ -9,8 +9,6 @@ image:
 
 # Bounty Hunter - Hack the Box Writeup
 
-### by Aashwin Sharma.
-
 In this Hack the Box writeup, we will walk through the process of hacking into the **Bounty Hunter machine**. This machine requires a mix of web application exploitation and privilege escalation techniques. The first step is to perform a port scan and identify the open ports and services. From there, we will exploit a vulnerability in the web application to gain access to the machine. Finally, we will escalate our privileges to gain root access and complete the challenge.
 
 ![BountyHunter.png](/assets/images/BountyHunterHTB/BountyHunter.png)
@@ -56,8 +54,6 @@ feroxbuster -u http://10.10.11.100/ -w /usr/share/wordlists/seclists/Discovery/W
 ![Untitled](/assets/images/BountyHunterHTB/Untitled%205.png)
 
 The feroxbuster’s output reveals an interesting php page in the webserver which is db.php, visiting it opens up a blank page.
-
- 
 
 ## **Exploitation**
 
@@ -119,8 +115,6 @@ Now for the privesc part I tried listing files that can be ran with root permiss
 
 Reveals us this python [ticketvalidator.py](http://ticketvalidator.py) file.
 
- 
-
 ![Untitled](/assets/images/BountyHunterHTB/Untitled%207.png)
 
 After reading and analyzing the python code, I found that the [ticketvalidator.py](http://ticketvalidator.py) file only accepts the .md files and denies any other file. It also checks what is written inside of the file with proper syntax of how a ticket is created.
@@ -136,8 +130,6 @@ The fourth line should contain two digits separated by a ‘+’ symbol returnin
 Fulfilling the above criteria I created a script in the temp directory named [root.md](http://root.md). And also added an extra line stating the shell, which is true. This is script is being executed with root permissions which can give us a root shell.
 
 ![root.md.png](/assets/images/BountyHunterHTB/root.md.png)
-
- 
 
 ```bash
 sudo /usr/bin/python3.8 /opt/skytrain_inc/ticketValidator.py
