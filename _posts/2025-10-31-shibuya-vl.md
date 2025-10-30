@@ -256,11 +256,11 @@ Since we have another session on the DC as Nigel.Mills we can steal their hash w
 
 We will use remotepotato.exe to trigger it.
 
-[https://github.com/antonioCoco/RemotePotato0](/assets/images/Shibuya_VL/https://github.com/antonioCoco/RemotePotato0)
+[https://github.com/antonioCoco/RemotePotato0](link)
 
 Also this post by sentinelone explains this attack in a great way.
 
-[https://www.sentinelone.com/labs/relaying-potatoes-another-unexpected-privilege-escalation-vulnerability-in-windows-rpc-protocol/](https://www.sentinelone.com/labs/relaying-potatoes-another-unexpected-privilege-escalation-vulnerability-in-windows-rpc-protocol/)
+[https://www.sentinelone.com/labs/relaying-potatoes-another-unexpected-privilege-escalation-vulnerability-in-windows-rpc-protocol/](link)
 
 **So lets first create a tunnel using socat because the oxid resolution needs to be taken care.**
 
@@ -294,7 +294,7 @@ hashcat -m 5600 hashes.txt /usr/share/wordlists/rockyou.txt
 
 ![image.png](/assets/images/Shibuya_VL/image%2015.png)
 
-Successfully cracked the hash for nigel.mills 
+Successfully cracked the hash for nigel.mills
 
 Marking Nigel as owned in bloodhound.
 
